@@ -1,0 +1,160 @@
+.heading-area {
+    background-color: rgba(0, 128, 255, 0.909);
+    height: 40px;
+    width: auto;
+    margin-bottom: 14px;
+  }
+  
+  .heading-area p {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  span {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  
+  h1 {
+    font-size: 60px;
+  } 
+  
+  /* @keyframes rotateYAnimation {
+    0% {
+      transform-style: preserve-3d;
+      animation: rotateYAnimation 0.8s infinite alternate;
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(369deg);
+    }
+  } */
+  
+  .result {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+  }
+  
+  .green {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+  }
+  
+  .bal {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+  }
+  
+  #amount1 {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  
+  .money-enter-area {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    color: black;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 0px;
+  }
+  
+  #confirmButton {
+    background-color: rgba(0, 128, 255, 0.909);
+    border-color: rgba(0, 128, 255, 0.909);
+    color: white;
+  }
+  
+  .dynamic-div {
+    border-radius: 50px;
+    width: 13px;
+    font-size: 12px;
+    margin: 5px 10px;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #color-history {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+    color: white;
+    box-shadow: 0 0 2px black;
+  }
+  
+  .record {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 0 3px black;
+    height: 40px;
+    background-color: #0093ff;
+    color: white;
+    font-weight: 600;
+  }
+
+  .recordNumber{
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  /* For Webkit (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+  }
+  
+  .imagestyle {
+    top: 100px;
+    z-index: 100;
+    height: auto;
+  }
+  
+
+.numbers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.numbers button{
+  width: calc(20% - 10px);
+  margin: 2px;
+}
